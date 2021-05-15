@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!—Необходимые мета теги -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://kit.fontawesome.com/effefd81d7.js" crossorigin="anonymous"></script>
+
+	<!—Bootstrap стили CSS -->
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+              rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
+              crossorigin="anonymous">
+  </head>  
+  <body> 
+     <h4>Базовая сетка</h4>
+<div class="row">
+  <div class="row_cell">1</div>
+</div>
+
+<div class="row">
+  <div class="row_cell">1/3</div>
+  <div class="row_cell">1/3
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <h6>
+  </div>
+  <div class="row_cell">1/3</div>
+</div>
+
+<div class="row">
+  <div class="row_cell">1/3</div>
+  <div class="row_cell">1/3</div>
+  <div class="row_cell">1/3</div>
+</div>
+     
+     <h4>Ячейки определенного размера</h4>
+<div class="row">
+  <div class="row_cell--2">2x</div>
+  <div class="row_cell">1x</div>
+</div>
+
+<div class="row">
+  <div class="row_cell--3">3x</div>
+  <div class="row_cell">1x</div>
+  <div class="row_cell">1x</div>
+</div>
+     
+     <h4>Ячейки с определенным выравниванием</h4>
+<div class="row">
+  <div class="row_cell row_cell--top">top</div>
+  <div class="row_cell">1/3
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <br/>
+      It's got even more text like this one. Why does it have so much text? Nothing really. Just so it's easier to see the alignment options of the other cells...<h6>
+  </div>
+  <div class="row_cell">1/3</div>
+</div>    
+    
+<div class="row">
+  <div class="row_cell">1/3</div>
+  <div class="row_cell">1/3
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <br/>
+      It's got even more text like this one. Why does it have so much text? Nothing really. Just so it's easier to see the alignment options of the other cells...<h6>
+  </div>
+  <div class="row_cell row_cell--bottom">bottom</div>
+</div> 
+    
+<div class="row">
+  <div class="row_cell row_cell--center">center</div>
+  <div class="row_cell">1/3
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <br/>
+      It's got even more text like this one. Why does it have so much text? Nothing really. Just so it's easier to see the alignment options of the other cells...<h6>
+  </div>
+  <div class="row_cell">1/3</div>
+</div>     
+    
+<h4>Общее выравнивание внутри строк</h4>   
+<div class="row row--top">
+  <div class="row_cell">top</div>
+  <div class="row_cell">top
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <br/>
+      It's got even more text like this one. Why does it have so much text? Nothing really. Just so it's easier to see the alignment options of the other cells...<h6>
+  </div>
+  <div class="row_cell">top</div>
+</div> 
+
+<div class="row row--center">
+  <div class="row_cell">center</div>
+  <div class="row_cell">center
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <br/>
+      It's got even more text like this one. Why does it have so much text? Nothing really. Just so it's easier to see the alignment options of the other cells...<h6>
+  </div>
+  <div class="row_cell">center</div>
+</div>
+    
+<div class="row row--bottom">
+  <div class="row_cell">bottom</div>
+  <div class="row_cell">bottom
+    <h6> This one is got more text than the other. Yet, the height remains the same accross the separate columns <br/>
+      It's got even more text like this one. Why does it have so much text? Nothing really. Just so it's easier to see the alignment options of the other cells...<h6>
+  </div>
+  <div class="row_cell">bottom</div>
+</div>     
+    
+<h4>Вложенные сетки</h4>    
+<div class="row">
+  <div class="row_cell--2">2x
+  <div class="row row--center">
+  <div class="row_cell">center</div>
+  <div class="row_cell">center
+    <h6> This one is got more text than the other<h6>
+  </div>
+  <div class="row_cell">center</div>
+</div>
+  </div>
+  <div class="row_cell">1x</div>
+</div>
+  </body>
+</html>
